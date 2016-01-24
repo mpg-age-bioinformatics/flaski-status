@@ -1,0 +1,41 @@
+# Exclude files
+exclude: [Makefile]
+excerpt_separator: ""
+
+# Install gems
+gems:
+  - jekyll-last-modified-at
+
+
+
+# Permalinks
+permalink: '/:categories/:title/'
+
+
+
+# Webpage
+timezone: 'Europe/Copenhagen'
+title: 'Statusside'
+baseurl: '/jekyll-statuspage/'
+assets: 'assets/'
+mailchimp:
+   css: 'https://cdn-images.mailchimp.com/embedcode/classic-ID.css'
+   url: 'https://NAME.DC.list-manage.com/subscribe/post?u=U&amp;id=ID'
+   csrf: 'CSRF'
+
+
+
+# Services
+services:
+   HOMEPAGE:
+      en: Homepage
+      da: Hjemmeside
+   API:
+      en: API
+      da: API
+   REST:
+      en: REST API
+      da: REST API
+   DOCS:
+      en: Documentation
+      da: Dokumentation

@@ -1,0 +1,53 @@
+html {
+    overflow-y: scroll;
+    position: relative;
+    min-height: 100%;
+}
+body,
+html {
+    color: #333;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+body {
+    font-size: 90%;
+    background-color: #f0f3f4;
+}
+.container { max-width: 860px }
+.nav>li>a {
+    color: #99979c;
+    cursor: pointer;
+}
+.timeline .moment {
+    width: 100%;
+    position: relative;
+}
+.timeline .moment:before {
+    content: '';
+    position: absolute;
+    left: 26px;
+    top: -5px;
+    width: 3px;
+    height: 100%;
+    background: #21759A;
+}
+.timeline .moment .status-icon {
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #e8e8e8;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+.timeline .moment .status-icon .fa {
+    position: absolute;
+    top: 9px;
+}
+.timeline .moment .status-icon .fa.fa-check { left: 9.5px }
+.timeline .moment .status-icon .fa.fa-times { left: 10.5px }
+.timeline .moment .status-icon .fa.fa-exclamation { left: 13.5px }
