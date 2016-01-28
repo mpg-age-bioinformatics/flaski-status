@@ -14,7 +14,7 @@ html {
 }
 body {
     font-size: 90%;
-    background-color: #f0f3f4;
+    background-color: #fff;
 }
 .container { max-width: 860px }
 .nav>li>a {
@@ -51,3 +51,10 @@ body {
 .timeline .moment .status-icon .fa.fa-check { left: 9.5px }
 .timeline .moment .status-icon .fa.fa-times { left: 10.5px }
 .timeline .moment .status-icon .fa.fa-exclamation { left: 13.5px }
+.navbar { z-index: inherit; }
+#banner {
+	color: #000 !important;
+	background-color: #fff !important;
+	border-color: #ccc !important;
+	z-index: 10;
+}
