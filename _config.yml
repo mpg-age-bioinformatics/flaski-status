@@ -14,9 +14,9 @@ permalink: '/:categories/:title/'
 
 
 # Webpage
-timezone: 'Europe/Copenhagen'
+timezone: 'Europe/Berlin'
 title: 'Statusside'
-baseurl: '/jekyll-statuspage/'
+baseurl: '/flaski-status/'
 assets: 'assets/'
 mailchimp:
    css: 'https://cdn-images.mailchimp.com/embedcode/classic-ID.css'
@@ -29,13 +29,9 @@ mailchimp:
 services:
    HOMEPAGE:
       en: Homepage
-      da: Hjemmeside
    API:
       en: API
-      da: API
    REST:
       en: REST API
-      da: REST API
    DOCS:
       en: Documentation
-      da: Dokumentation
